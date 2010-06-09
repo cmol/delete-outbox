@@ -1,0 +1,4 @@
+This program deletes files older than one week in specified folder.
+
+Call with:
+./delete-outbox.rb /home/user/Downloads/Outbox
