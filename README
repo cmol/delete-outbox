@@ -1,4 +1,8 @@
 This program deletes files older than one week in specified folder.
 
 Call with:
-./delete-outbox.rb /home/user/Downloads/Outbox
+ruby delete-outbox.rb /home/user/Downloads/Outbox
+
+Crontab example:
+59 * * * * ruby /home/user/bin/delete-outbox/delete-outbox.rb /home/user/Downloads/Outbox
+This will check for files to delete every 59th minute in every hour, every day, all year.
