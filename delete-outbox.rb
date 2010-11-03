@@ -27,4 +27,6 @@ if ARGV.length > 0
 			end
 		end
 	end
+else
+  puts "Call with directory as parameter such as:\nruby delete-outbox.rb /home/me/Downloads/Outbox"
 end
